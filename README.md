@@ -14,7 +14,7 @@ It provides a clean Laravel setup with sensible defaults, allowing you to start 
 
 - **Laravel 12** - Latest Laravel framework
 - **Filament v4** - Admin panel with log viewer and health monitoring
-- **Laravel Cashier 16** - Stripe and Paddle subscription billing
+- **Laravel Cashier 16** - Stripe subscription billing
 - **Spatie Laravel Permission** - Role and permission management
 - **Spatie Laravel Activity Log** - Activity logging
 - **Spatie Laravel Backup** - Automated backups
@@ -47,47 +47,10 @@ cd template-laravel-app
 ### 2. Install dependencies
 
 ```bash
-composer install
-npm install
-```
-
-### 3. Environment configuration
-
-Copy the environment file:
-
-```bash
-cp .env.example .env
-```
-
-Generate the application key:
-
-```bash
-php artisan key:generate
-```
-
-Update `.env` with your database and app settings.
-
-### 4. Run migrations and seed
-
-```bash
-php artisan migrate:fresh --seed
-```
-
-### 5. Build assets
-
-```bash
-npm run dev
-```
-
-## Quick Start
-
-Use the setup script for automatic installation:
-
-```bash
 composer setup
 ```
 
-Run development environment with all services:
+### 3. Build assets
 
 ```bash
 composer dev
