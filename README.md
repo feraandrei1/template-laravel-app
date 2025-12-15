@@ -10,9 +10,25 @@ This repository is a **Laravel application template** intended to be used as a s
 
 It provides a clean Laravel setup with sensible defaults, allowing you to start developing immediately without repeating common setup steps.
 
+## What's Included
+
+- **Laravel 12** - Latest Laravel framework
+- **Filament v4** - Admin panel with log viewer and health monitoring
+- **Laravel Cashier 16** - Stripe and Paddle subscription billing
+- **Spatie Laravel Permission** - Role and permission management
+- **Spatie Laravel Activity Log** - Activity logging
+- **Spatie Laravel Backup** - Automated backups
+- **Spatie Laravel Health** - Health monitoring
+- **Laravel Sail** - Docker development environment
+- **Laravel Envoy** - Deployment automation
+- **AWS S3 Integration** - Cloud storage
+- **Vonage Client** - SMS and voice capabilities
+- **Pest v4** - Testing framework with browser testing
+- **Laravel Pint** - Code style fixer
+
 ## Requirements
 
-- PHP >= 8.1
+- PHP >= 8.2
 - Composer
 - Node.js & npm
 - A database (MySQL, PostgreSQL, SQLite, etc.)
@@ -28,19 +44,14 @@ git clone https://github.com/feraandrei1/template-laravel-app.git
 cd template-laravel-app
 ````
 
-### 2. Install PHP dependencies
+### 2. Install dependencies
 
 ```bash
 composer install
-```
-
-### 3. Install frontend dependencies
-
-```bash
 npm install
 ```
 
-### 4. Environment configuration
+### 3. Environment configuration
 
 Copy the environment file:
 
@@ -56,16 +67,30 @@ php artisan key:generate
 
 Update `.env` with your database and app settings.
 
-### 5. Run migrations and seed
+### 4. Run migrations and seed
 
 ```bash
 php artisan migrate:fresh --seed
 ```
 
-### 6. Build assets
+### 5. Build assets
 
 ```bash
 npm run dev
+```
+
+## Quick Start
+
+Use the setup script for automatic installation:
+
+```bash
+composer setup
+```
+
+Run development environment with all services:
+
+```bash
+composer dev
 ```
 
 ## Laravel
