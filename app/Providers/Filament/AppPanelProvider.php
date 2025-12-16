@@ -67,6 +67,7 @@ class AppPanelProvider extends PanelProvider
                     ->viewLog(ViewLog::class)
                     ->navigationGroup('Settings')
                     ->navigationSort(5)
+                    ->authorize(fn () => authUserIsSuperAdmin())
                     ->excludedFilesPatterns([
                         '*horizon*',
                     ]),
