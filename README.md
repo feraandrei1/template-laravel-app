@@ -4,10 +4,6 @@
   </a>
 </p>
 
-## Screenshot
-
-![Application Screenshot](screenshot.png)
-
 ## About This Project
 
 This repository is a **Laravel application template** intended to be used as a starting point for new projects.
@@ -29,6 +25,10 @@ It provides a clean Laravel setup with sensible defaults, allowing you to start 
 - **Vonage Client** - SMS and voice capabilities
 - **Pest v4** - Testing framework with browser testing
 - **Laravel Pint** - Code style fixer
+
+## Screenshot
+
+![Application Screenshot](screenshot.png)
 
 ## Requirements
 
