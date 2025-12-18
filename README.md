@@ -4,6 +4,10 @@
   </a>
 </p>
 
+## Screenshot
+
+![Application Screenshot](screenshot.png)
+
 ## About This Project
 
 This repository is a **Laravel application template** intended to be used as a starting point for new projects.
