@@ -1,4 +1,4 @@
-# Contributing to Laravel Vue Chat Application
+# Contributing to Laravel Template Application
 
 Thank you for considering contributing to this project! This document provides guidelines and instructions for contributing.
 
@@ -85,9 +85,9 @@ Follow these conventions:
 - Avoid `env()` outside config files - use `config()` instead
 - Create **Form Request classes** for validation
 
-### JavaScript/Vue Code Style
+### JavaScript Code Style
 
-This project uses **ESLint** and **Prettier** for JavaScript/Vue formatting:
+This project uses **ESLint** and **Prettier** for JavaScript formatting:
 
 ```bash
 # Format code
@@ -99,18 +99,8 @@ npm run lint
 
 Follow these conventions:
 - Use **TypeScript** for type safety
-- Use **Composition API** with `<script setup>` in Vue components
-- Follow **Vue 3 best practices**
 - Use **Wayfinder** for type-safe routing
 - Prefer **named imports** for tree-shaking
-
-### Vue Component Guidelines
-
-- Single root element per component
-- Use descriptive component names (PascalCase)
-- Props should have explicit types
-- Emit events with clear names
-- Use `<Form>` component for Inertia forms when possible
 
 ### Testing
 
