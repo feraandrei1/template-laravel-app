@@ -51,9 +51,5 @@ class PermissionSeeder extends Seeder
                 ],
             ]);
         }
-
-        // Create permissions not tied to models
-        Permission::create(['name' => 'deploy-to-live', 'guard_name' => 'web']);
-        Permission::create(['name' => 'deploy-to-dev', 'guard_name' => 'web']);
     }
 }
