@@ -5,7 +5,9 @@
       "Bash(vendor/bin/pint:*)",
       "mcp__laravel-boost__search-docs",
       "Bash(php artisan vendor:publish:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(php artisan test:*)",
+      "Bash(php artisan route:list:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
